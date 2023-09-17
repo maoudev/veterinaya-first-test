@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// Connection with database
 	err := database.ConnectDB()
 	if err != nil {
 		panic(err.Error())
