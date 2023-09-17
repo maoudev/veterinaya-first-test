@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/maoudev/veterinaya-go/database"
-	"github.com/maoudev/veterinaya-go/routes"
+	"github.com/maoudev/veterinaya-go/internal/database"
+	"github.com/maoudev/veterinaya-go/internal/routes"
 )
 
 func main() {

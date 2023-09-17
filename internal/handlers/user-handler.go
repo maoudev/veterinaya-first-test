@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/maoudev/veterinaya-go/database"
-	"github.com/maoudev/veterinaya-go/models"
+	"github.com/maoudev/veterinaya-go/internal/database"
+	"github.com/maoudev/veterinaya-go/internal/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

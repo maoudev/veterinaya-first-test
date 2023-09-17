@@ -9,3 +9,8 @@ type User struct {
 	Image_URL string `json:"image_url"`
 	Roles     []int  `json:"roles"`
 }
+
+type User_SignIn struct {
+	Email    string `json:"email" binding:"required"`
+	Password string `json:"password" binding:"required"`
+}
